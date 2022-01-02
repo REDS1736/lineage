@@ -61,3 +61,4 @@ date) is shown.
 
 ## Upcoming features / ToDo
 - Move to D3v7?
+- Add favicon
