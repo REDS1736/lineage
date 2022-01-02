@@ -28,13 +28,12 @@ function Lineage() {
 
   var TIMELINE_SPEED = 0.8;
 
-  var svg = d3.select("svg");
-      width = window.innerWidth,
-      height = window.innerHeight,
-      color = d3.scaleOrdinal(d3.schemeCategory20);
+  var width = window.innerWidth;
+  var height = window.innerHeight;
+  var color = d3.scaleOrdinal(d3.schemeCategory20);
 
-  var canvas = document.querySelector("canvas"),
-      context = canvas.getContext("2d")
+  var canvas = document.querySelector("canvas");
+  var context = canvas.getContext("2d")
 
   var canvas = d3.select('canvas')
                   .attr('width', width)
@@ -43,11 +42,11 @@ function Lineage() {
   var context = canvas.getContext('2d');
   var nightMode = false;
 
-  var nodes = [],
-      links = [],
-      clusters = [],
-      data = {},
-      originalData = {};
+  var nodes = [];
+  var links = [];
+  var clusters = [];
+  var data = {};
+  var originalData = {};
 
   var canvas = d3.select("canvas")
       .attr("id", "screen")
@@ -59,7 +58,6 @@ function Lineage() {
   var filters = $('#search').val();
   var searchRadius = 40;
   var simulation = d3.forceSimulation();
-  var g = null;
   var users = [];
   var interval = null;
   var mode = 'tree'
