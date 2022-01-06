@@ -62,3 +62,4 @@ date) is shown.
 ## Upcoming features / ToDo
 - Move to D3v7?
 - Add favicon
+- Pause music when the music checkbox is unchecked while the timeline is running
