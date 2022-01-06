@@ -65,3 +65,6 @@ date) is shown.
 - Pause music when the music checkbox is unchecked while the timeline is running
 - New key in config: `mode` -> Which mode (tree, timeline, cluster) is displayed
     by default?
+- Find better name for key `speed` in config. `yearDuration`?
+    Or change functionality (e.g. use `1 / speed ` instead of `speed` in loop)
+    to reflect key name?
