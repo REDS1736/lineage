@@ -68,3 +68,4 @@ date) is shown.
 - Find better name for key `speed` in config. `yearDuration`?
     Or change functionality (e.g. use `1 / speed ` instead of `speed` in loop)
     to reflect key name?
+- Add a config key for the constant `searchRadius` in lineage.js
