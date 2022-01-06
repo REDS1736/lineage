@@ -63,3 +63,5 @@ date) is shown.
 - Move to D3v7?
 - Add favicon
 - Pause music when the music checkbox is unchecked while the timeline is running
+- New key in config: `mode` -> Which mode (tree, timeline, cluster) is displayed
+    by default?
